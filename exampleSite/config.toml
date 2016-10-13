@@ -12,8 +12,6 @@ disqusShortname = "spf13"
 	name = "John Doe"
 	description = "Describe your website"
 	bio = "Blogger - Programmer - Gopher"
-	# Enter optionally your twitter account
-	twitter = "Your Twitter account"
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
@@ -47,7 +45,6 @@ disqusShortname = "spf13"
 
 # Add additional social link entries underneath
 [social]
-    twitter  = "https://www.twitter.com/"
     facebook = "https://www.facebook.com/"
     github   = "https://www.github.com/"
     dribble  = "https://www.dribbble.com/"

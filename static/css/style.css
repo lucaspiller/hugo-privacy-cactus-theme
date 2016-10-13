@@ -36,10 +36,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .icon-facebook:before { content: '\e802'; }
 .icon-facebook-squared:before { content: '\e800'; }
-.icon-twitter:before { content: '\e801'; }
-.icon-twitter-1:before { content: '\e804'; }
 .icon-facebook-circled:before { content: '\e805'; }
-.icon-twitter-circled:before { content: '\e806'; }
 .icon-facebook-rect:before { content: '\e803'; }
 
 /* Spacing */
@@ -609,9 +606,6 @@ h2.month {
 }
 #sharing a.facebook {
   background: #4361b3;
-}
-#sharing a.twitter {
-  background: #4fafed;
 }
 
 #sharing a {
