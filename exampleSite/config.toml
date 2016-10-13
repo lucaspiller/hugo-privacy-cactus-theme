@@ -3,8 +3,6 @@ baseurl = "http://replace-this-with-your-domain.com/"
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = "spf13"
 

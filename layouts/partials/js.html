@@ -4,5 +4,3 @@
 {{ range .Site.Params.customJS }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 {{ end }}
-
-{{ template "_internal/google_analytics.html" . }}
