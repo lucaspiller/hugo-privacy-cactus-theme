@@ -3,8 +3,6 @@ baseurl = "http://replace-this-with-your-domain.com/"
 languageCode = "en-us"
 title = "Hugo Cactus Theme"
 theme = "hugo-cactus-theme"
-# Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
 
 [params]
 	name = "John Doe"
