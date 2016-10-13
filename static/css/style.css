@@ -34,10 +34,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-transform: none;
 	line-height: 1em;
 }
-.icon-facebook:before { content: '\e802'; }
-.icon-facebook-squared:before { content: '\e800'; }
-.icon-facebook-circled:before { content: '\e805'; }
-.icon-facebook-rect:before { content: '\e803'; }
 
 /* Spacing */
 .post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
@@ -471,26 +467,6 @@ Post List
 	float: left;
 }
 
-#sharing {
-	float: right;
-	margin: -2px;
-}
-
-#sharing a {
-	font-size: 20px;
-	font-size: 23px;
-	margin-left: 1px;
-	margin-top: 4px;
-	color: #d4d4d4;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#sharing a:hover {
-	/*color: #444;*/
-	opacity: 0.8;
-}
-
 /* Post Navigation */
 #post-nav {
 	border-top:1px solid #eee;
@@ -603,19 +579,6 @@ h2.month {
 
 #post-list.archive.readmore .dates{
 	font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
-}
-#sharing a.facebook {
-  background: #4361b3;
-}
-
-#sharing a {
-  font-size: 20px;
-  font-size: 13px;
-  font-weight: bold;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 4px;
-  margin-left: 2px;
 }
 
 /* Media Queries */

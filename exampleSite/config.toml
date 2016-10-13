@@ -30,10 +30,6 @@ disqusShortname = "spf13"
 	newerPosts = ""
 	readMore = ""
 	copyright = ""
-	# Sharing options and author information in posts
-	aboutAuthor = "I'm an enthusiastic gopher."
-	tweet = ""
-	share = ""
 	# 404 page
 	title404 = ""
 	subtitle404 = ""
@@ -45,6 +41,5 @@ disqusShortname = "spf13"
 
 # Add additional social link entries underneath
 [social]
-    facebook = "https://www.facebook.com/"
     github   = "https://www.github.com/"
     dribble  = "https://www.dribbble.com/"
