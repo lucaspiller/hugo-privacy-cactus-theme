@@ -36,7 +36,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
+.post h1, h3, h4, h5, p, .post-body ul, ol, pre {
 margin-bottom: 20px;
 }
 
@@ -64,13 +64,11 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
 .profile #header {
-	border-bottom: 1px solid #eee;
-	margin-bottom: 40px;
 	padding-bottom: 40px;
 	text-align: center;
 	position: relative;
@@ -132,13 +130,13 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -175,8 +173,10 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+ul, ol 	{ margin:0; padding:0; margin-bottom: 20px; }
+ul { list-style-type:circle; }
+ol { list-style: decimal; }
+li	{  list-style-position:inside; }
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -220,7 +220,7 @@ em, i { font-style: italic; }
 }
 
 .post h1 {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	color: #222;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
@@ -231,6 +231,10 @@ em, i { font-style: italic; }
 	  color: #111;
 }
 
+.post h2.subtitle {
+	font: italic 19px/1.3em Georgia,serif;
+	color: #bbb;
+}
 
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
@@ -348,7 +352,6 @@ thead th,th {
 }
 
 img {
-	width: 100%;
 	max-width: 100%;
 	border-radius: 3px;
 }
@@ -365,21 +368,24 @@ img {
 /*=========================================
 Post List
 =========================================== */
-#post-list,#archive-list {
+#archive-list {
 	margin-top: 100px;
 }
 
-#post-list li,#archive-list li {
-	list-style-type: none;
-}
-
-#post-list li:last-child {
+#post-list {
 	margin-bottom: 0;
 }
 
-#post-list li+li {
-	padding-top: 20px;
+#post-list li,#archive-list li {
 	border-top: 1px solid #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+#post-list li:last-child {
+	border-bottom: 1px solid #eee;
 }
 
 #post-list a {
@@ -424,16 +430,10 @@ Post List
 }
 
 #footer {
-	box-shadow: inset 0 1px 0 #eee;
 	padding: 40px 0 0 0;
-	margin-top: 100px;
 }
 
 /* Post Page */
-#header {
-	border-bottom: 1px solid #eee;
-}
-
 .post {
 	margin: 80px 0 0 0;
 }
@@ -469,12 +469,10 @@ Post List
 
 /* Post Navigation */
 #post-nav {
-	border-top:1px solid #eee;
 	text-align:center;
-	padding-top:20px;
 	font-size:13px;
 	font-weight:500;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 #post-nav span {
@@ -584,9 +582,7 @@ h2.month {
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
-	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 	.post { margin: 40px 0; }
-	#footer { margin-top: 60px; }
 
 	#post-list, #archive-list { margin-top: 0; }
 	#post-meta { margin-top: 60px; }

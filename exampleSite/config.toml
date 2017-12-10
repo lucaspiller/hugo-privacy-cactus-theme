@@ -1,8 +1,9 @@
 # Site settings
-baseurl = "http://replace-this-with-your-domain.com/"
+baseurl = "https://example.org/"
+themesDir = "../.."
 languageCode = "en-us"
-title = "Hugo Cactus Theme"
-theme = "hugo-cactus-theme"
+title = "Hugo Privacy Cactus Theme"
+theme = "hugo-privacy-cactus-theme"
 
 [params]
 	name = "John Doe"
@@ -10,7 +11,8 @@ theme = "hugo-cactus-theme"
 	bio = "Blogger - Programmer - Gopher"
 	enableRSS = true
 
-	# Add custom assets with their paths relative to the static folder
+	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
+	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
 	customCSS = []
 	customJS  = []
 
@@ -19,7 +21,6 @@ theme = "hugo-cactus-theme"
 
 	# Navigation links
 	home = ""
-	about = ""
 	subscribe = ""
 	# Pagination links
 	olderPosts = ""
@@ -34,8 +35,3 @@ theme = "hugo-cactus-theme"
 	iconFont = "mono-social"
     # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
     socialIconStyle = "circle"
-
-# Add additional social link entries underneath
-[social]
-    github   = "https://www.github.com/"
-    dribble  = "https://www.dribbble.com/"
