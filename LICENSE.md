@@ -1,5 +1,6 @@
 The MIT License (MIT)
 
+Copyright (c) 2017 [Luca Spiller](//github.com/lucaspiller)  
 Copyright (c) 2015 [Cactus Authors](//github.com/koenbok/Cactus/blob/master/AUTHORS), [Nick Balestra](//github.com/nickbalestra) and [digitalcraftsman](//github.com/digitalcraftsman)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

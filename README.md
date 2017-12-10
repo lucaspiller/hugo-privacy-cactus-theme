@@ -60,7 +60,7 @@ Please create a separate branch for your pull request.
 
 ## License
 
-This theme is released under the MIT license. For more information read the [license](//github.com/lucaspiller/hugo-privacy-cactus-theme/blob/dev/LICENSE.md).
+This theme is released under the MIT license. For more information read the [license](//github.com/lucaspiller/hugo-privacy-cactus-theme/blob/master/LICENSE.md).
 
 ## Acknowledgements
 
